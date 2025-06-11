@@ -21,7 +21,7 @@ function Header () {
           HOME
         </Link>
         <Link
-          to="/Semesters"
+          to="/Years"
           className="text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-400 transition"
         >
           YEAR
