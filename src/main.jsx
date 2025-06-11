@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
+import Physics from './components/Years/First_Year/Physics';
 //import {RouteProvider, createBrowserRouter} from 'react-router'
 import Layout from './Layout'
 import Home from './components/Home/Home'
@@ -25,7 +25,12 @@ const router = createBrowserRouter(
           element: <Year_Home/>,
           children: [
             { path: "First_Year",
-              element: <First_Year/> }
+              element: <First_Year/>, 
+              children : [{
+                path: "physics",
+                element: <Physics/>,
+              }]
+            }
           ]
         },
         {
