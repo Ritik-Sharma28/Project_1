@@ -1,6 +1,6 @@
 import { Link, Outlet, useMatch } from "react-router-dom";
 
-function Semester_Home() {
+function Year_Home() {
     const isRoot = useMatch("/Semesters");
      return ( 
      //<div class="">
@@ -65,5 +65,5 @@ isRoot && (
 );
 }
 
-export default Semester_Home
+export default Year_Home
 ;
