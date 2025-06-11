@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 //import {RouteProvider, createBrowserRouter} from 'react-router'
 import Layout from './Layout'
 import Home from './components/Home/Home'
-import Semester_Home from './components/Years/Year_Home/Year_Home'
+import Year_Home from './components/Years/Year_Home/Year_Home'
 import Advice from './components/Advice/Advice'
 import First_Year from './components/Years/First_Year/First_Year';
 

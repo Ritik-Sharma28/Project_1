@@ -1,7 +1,7 @@
 import { Link, Outlet, useMatch } from "react-router-dom";
 
 function Year_Home() {
-    const isRoot = useMatch("/Semesters");
+    const isRoot = useMatch("/Years");
      return ( 
      //<div class="">
 //   <div class="flex items-center justify-center bg-amber-50">
@@ -65,5 +65,4 @@ isRoot && (
 );
 }
 
-export default Year_Home
-;
+export default Year_Home;
